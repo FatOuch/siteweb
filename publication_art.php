@@ -1,7 +1,9 @@
 
 <?php include_once 'inc/header.php'; ?>
 
+
 <?php  
+//test pour la mise à jour de fichier
 $err = array();
 $articles = array();
 $formValid = false;
@@ -61,9 +63,11 @@ if (!empty($_POST)) {
 			if (!empty($_FILES['img']['name'])) {
 				$monNomDeFichier = trim($_FILES['img']['name']);	
 			
-
-				$accentLess = array("a", "e", "i", "o", "u","_");
 				$accent = array("à", "é", "î", "ô", "û"," ");
+				// $accent = les caractères que l'ont souhaite remplacé
+				$accentLess = array("a", "e", "i", "o", "u","_");
+				// $accentLess = les valeurs de remplacement dans le même ordre que $accent
+				//time().'-'.$_FILES['img']['name']=>la chaîne dans laquelle j'effectue les remplacement
 				$nameAccentLess = str_replace($accent, $accentLess, $monNomDeFichier);
 				
 				$monImgUpload = $dirUpload.time().'-'.$nameAccentLess;
