@@ -1,0 +1,245 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Noto+Sans:400,700|Lato:400,300,700');
+/* +++++++++++++++++ GLOBAL +++++++++++++++ */
+
+html{
+	position: relative;
+}
+
+
+/* +++++++++++++++++ TYPO +++++++++++++++ */
+li{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 10px;
+	padding-right: 10px;
+
+}
+
+/* +++++++++++++++++ BLOCS HEADER & FOOTER +++++++++++++++ */
+header{
+	background:#C6F7E5;
+	height:100px;
+
+}
+
+li{
+	display: inline-block;
+}
+ul{
+	float: right;
+}
+nav{
+
+
+}
+img{
+	height:60px;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	
+}
+footer{
+	background:#AEB5B2;
+	height:10px;
+	position:fixed;
+	bottom:0;
+
+}
+/* +++++++++++++++++ BLOCS CORPS+++++++++++++++ */
+
+
+a{
+	font-family: 'Poiret One',sans-serif;
+	/* float: right; */
+	font-size: 12px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #769187;
+	font-weight: bold;
+}
+
+
+
+h1{
+	font-family: 'Noto Sans';
+	margin: 25px;
+	font-size: 25px;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Noto Sans';
+	font-weight: 400;
+	margin: 0 auto;
+	padding: 10px 10px;
+
+}
+div{
+	width: 600px;
+	margin:0 auto;
+}
+p{
+	font-family:'Noto Sans',sans-serif;
+	font-size: 10px;
+	width: 400px;
+	display: inline-block;
+	float:right; 
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+
+article{
+	background-color: #E1F2EC;
+	border-bottom: 1px solid #8DC19F;
+	/* border-bottom: 1px solid #217da8; */
+	padding-bottom: 15px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+
+}
+
+article::after{
+	content: '';
+	clear: both;
+	display: inline-block;
+}
+
+.liencom{
+	float: right;
+}
+
+/*--------------------------------- MA PARTIE FORMULAIRE COMMENTAIRE ----------------------*/
+input{
+	margin-bottom: 20px;
+	margin-left: 20px;
+	display: inline-block;
+	margin-right: 290px;
+	font-size: 10px;
+	
+}
+
+label{
+	display: inline-block;
+	min-width: 100px;
+	padding-left: 10px;
+	font-family: 'Noto Sans';
+	font-size: 10px;
+
+
+}
+
+input:after{
+	content: '';
+	clear: both;
+	display: inline-block;
+}
+
+textarea{
+	padding:0;
+	margin-left: 20px;
+
+}
+
+form{
+	margin-top: 30px;
+}
+input[type=submit]{
+	margin:0 auto;
+}
+
+#commentaires{
+	background-color: #E8EDEB;
+	border-bottom: 1px solid #979C9A;
+}
+
+
+
+.titlecom{
+	font-family: 'Noto Sans';
+	font-weight: 200;
+	margin: 0 auto;
+	padding: 10px 10px;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+.surnom{
+	padding-left: 10px;
+	font-size: 12px;
+	display: inline-block;
+	padding-top: 0px;
+	vertical-align: middle;
+}
+
+.heurecom{
+	padding-left: 10px;
+	font-size: 9px;
+	display: inline-block;
+	padding-top: 0px;
+	vertical-align: middle;
+
+}
+
+.pasdecom{
+	padding-left: 15px;
+	font-size: 9px;
+	display: inline-block;
+	padding-top: 15px;
+	vertical-align: middle;
+	font-style: italic;
+	color: #979C9A;
+}
+/*--------------------------------- MA PARTIE RECHERCHE UTILISATEUR ----------------------*/
+
+.labelSearch{
+
+}
+
+h3{
+	font-family: 'Noto Sans';
+	font-size: 10px;
+	font-weight: 700;
+	margin: 0 auto;
+	padding: 10px 10px;
+	text-transform: capitalize;
+	vertical-align: middle;
+}
+
+button{
+color:#343434;
+
+box-shadow: 0px 0px 3px #343434;
+
+border-radius: 2px;
+border: 1px solid #656565;
+background:#cfcfcf;
+
+background: -webkit-gradient(linear, left top, left bottom, from(#cfcfcf), to(#656565));
+background: -webkit-linear-gradient(#cfcfcf, #656565);
+background: -moz-linear-gradient(#cfcfcf, #656565);
+background: -o-linear-gradient(#cfcfcf, #656565);
+background: -ms-linear-gradient(#cfcfcf, #656565);
+background: linear-gradient(#cfcfcf, #656565);
+font-size: 10px;
+}
+
+.labelSearch{
+	font-size: 15px;
+	color: #217da8;
+	margin-right: 153px;
+}
+
+.search{
+	margin-right: 15px;
+	margin-bottom: 9px;
+}
+
+form{
+	padding-top: 5px;
+	background-color:rgba(33,125,168,0.3);
+	border-bottom: 1px solid #217da8;
+	border-top: 1px solid #217da8;
+	/* background-color: #217da8;  */
+}

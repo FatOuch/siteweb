@@ -1,0 +1,41 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Noto+Sans:400,700|Lato:400,300,700');
+
+/* +++++++++++++++++ TYPO +++++++++++++++ */
+li{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 10px;
+
+}
+
+/* +++++++++++++++++ BLOCS +++++++++++++++ */
+header{
+	background:#C6F7E5;
+	height:100px;
+
+}
+
+li{
+	display: inline-block;
+}
+
+img{
+	height:60px;
+}
+ul{
+	float: right;
+}
+
+nav{
+
+
+}
+h2{
+	font-family: 'Noto Sans';
+	font-weight: 700;
+	margin: 0 auto;
+}
+div{
+	width: 600px;
+	margin:0 auto;
+}
